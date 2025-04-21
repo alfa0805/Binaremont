@@ -1,0 +1,111 @@
+{
+  "header": {
+    "href1": "BOSH SAHIFA",
+    "href2": "ISHLARIMIZ",
+    "href3": "KALKULYATOR",
+    "href4": "HAMKORLAR",
+    "href5": "ISH JARAYONI",
+    "href6": "TA'MIRLASH QANCHA TURADI?",
+    "btn": "ALOQA",
+    "btn2":"Yopish"
+  },
+  "home": {
+  "title": "KAPITAL VA KOSMETIK TA'MIR",
+  "subtext": "BIZ QULAYLIK, FUNKSIYONALLIK VA ESTETIKANI YARATAMIZ",
+  "text1": "TAJRIBALI USTALAR",
+  "text2": "ZAMONAVIY DIZAYN",
+  "text3": "YUQORI SIFATLI MATERIALLAR",
+  "btn": "ALOQA"
+  },
+  "works": {
+    "title1": "YASHASH LOYIHALARI",
+    "title2": "TICARIY LOYIHALAR",
+    "title3": "OFISLAR"
+  },
+  "part": {
+    "title1": "BIZ HAMKORLIK QILADIGAN BRENDLAR:",
+    "title2": "AFZALLIKLAR",
+    "stitle1": "BEPUL O‘LCHASH UCHUN KELISH",
+    "stitle2": "MUAYYAN MUDDAT VA NARXNI BELGILAYMIZ",
+    "stitle3": "KAFOLAT BILAN SHARTNOMA ASOSIDA BOSQICHMA-BOSQICH TO‘LOV",
+
+    "text1": "SHARTNOMA TUZILGANDAN SO‘NG",
+    "text2": "Smeta TUZAMIZ VA ISH TUGAGUNGA QADAR NARXNI OSHIRMAYMIZ",
+    "text3": "NAQD VA PUL O‘TKAZMALARI ORQALI TO‘LOV"
+  },
+  "about": {
+    "title": "TA'MIR NARXI",
+    "title1": "INDIVIDUAL RAVISHDA HISOBLANADI",
+    "text1": "Obyekt dizaynini yaratish",
+    "text2": "3D vizualizatsiya",
+    "text3": "Loyihaviy hujjatlar (loyiha smetasi, elektr va sanitariya sxemalari, mebel, texnika va dekor elementlarini joylashtirish)",
+    "text4": "Loyiha muallifining nazorati",
+    "text5": "Qurilish-ta'mirlash materiallarini tanlash, xarid qilish, yetkazib berish va ko‘tarish",
+    "text6": "Kapital ta'mirlash (shpaklyovka, devorlarni suvoq qilish, elektr va sanitariya nuqtalarini o‘tkazish, oboy yopishtirish, devorlarni bo‘yash, polni tekislash, laminat va plitka yotqizish, plintuslar, podokonniklar o‘rnatish, gipsokarton konstruksiyalar o‘rnatish, yoritish elementlari, rozetkalar va kalitlarni o‘rnatish va ulash, sanitariya texnikasini o‘rnatish)",
+    "text7": "Mebelni tanlash, buyurtma qilish va joylashtirish",
+    "text9": "Maishiy texnikani tanlash, buyurtma qilish va o‘rnatish (standart to‘plam)",
+    "text10": "Yoritish elementlari, lyustralar, bra va h.k.larni tanlash va o‘rnatish (** standart to‘plam)",
+    "text11": "Sanitariya texnikasi va aksessuarlarni tanlash",
+    "text12": "Ichki/tashqi dizayn bezagi (home staging)",
+    "text13": "Ta'mirdan keyin umumiy tozalash",
+    "text14": "Qurilish chiqindilarini olib chiqish",
+    "text15": "Bajarilgan ishlarga kafolat: 1 yil*",
+    
+    "title2": "TA'MIRLASH TARTIBI VA UNING MUDDATI QANDAY?",
+    "title3": "TA'MIR QANDAY BAJARILADI?",
+    "stext1": "Davomiyligi:",
+    "stext2": "1-4 HAFTA",
+
+    "stitle1": "QORA ISHLAR",
+    "text1,1": "Dizayn-loyihasini yaratish",
+    "text1,2": "Smetani tasdiqlash",
+    "text1,3": "Devorlarni demontaj qilish va qurish",
+    "text1,4": "Sanitariya va elektr tizimlarini o‘rnatish",
+    "text1,5": "Muhandislik ishlari",
+
+    "stitle2": "TOZA OLDI ISHLARI",
+    "text2,1": "Shiftni yakuniy bezash",
+    "text2,2": "Devorlarni yakuniy bezash",
+    "text2,3": "Devorlarni demontaj qilish va qurish",
+    "text2,4": "Muhandislik ishlari",
+    "text2,5": "Devorlarni suvoq qilish",
+    "text2,6": "Sanitariya va elektr tizimlarini o‘rnatish",
+    "text2,7": "Polni quyish",
+
+    "stitle3": "BEZATISH ISHLARI",
+    "text3,1": "Shiftni qoplash",
+    "text3,2": "Plitka ishlari",
+    "text3,3": "Devorlarni shpaklyovka qilish",
+    "text3,4": "Shiftni shpaklyovka qilish",
+    "text3,5": "Devor va shiftlarni sayqallash",
+    "text3,6": "Devor va shiftlarni gruntlash",
+
+    "stitle4": "YAKUNIY ISHLAR",
+    "text4,1": "Shift va devorlarni bo‘yash",
+    "text4,2": "Oboy yopishtirish",
+    "text4,3": "Pol va plintusni o‘rnatish",
+    "text4,4": "Rozetka va kalitlarni o‘rnatish",
+    "text4,5": "Mebel va lyustralarni o‘rnatish",
+    "text4,6": "Sanitariya texnikasini o‘rnatish"
+  },
+  "contact": {
+    "title1": "Biz sizga qo‘ng‘iroq qilamiz va",
+    "title2": "barcha savollaringizga javob beramiz",
+    "num": "Telefon raqami",
+    "imya": "Ismingiz",
+    "title3": "Shoshilinchmi? Qo‘ng‘iroq qiling:",
+    "btn1": "Yuborilmoqda...",
+    "btn2": "Yuborish",
+    "pl": "Masalan: John Smith"
+  },
+  "footer": {
+    "description": "Turar va noturar joy mulklari sohasida kompleks xizmatlar, jumladan ta'mirlash xizmatlari.",
+    "socials": "BIZ IJTIMOIY TARMOQLARDA:",
+    "contact_title": "ALOQA TELEFON RAQAMI:",
+    "phone_number": "+998 90 097 50 00",
+    "address": "MUSTAQILLIK PROSPEKTI 59",
+    "mede": "Yasalgani:",
+    "tilde": "Tilda"
+  }
+
+}

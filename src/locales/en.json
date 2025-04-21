@@ -1,0 +1,109 @@
+{
+  "header": {
+    "href1": "HOME",
+    "href2": "OUR WORKS",
+    "href3": "CALCULATOR",
+    "href4": "PARTNERS",
+    "href5": "WORK PROCESS",
+    "href6": "HOW MUCH DOES RENOVATION COST?",
+    "btn": "CONTACT",
+     "btn2": "Close"
+  },
+  "home": {
+  "title": "RENOVATE CAPITAL AND COSMETICALLY",
+  "subtext": "WE CREATE COMFORT, FUNCTIONALITY AND AESTHETICS",
+  "text1": "EXPERIENCED MASTERS",
+  "text2": "STYLISH DESIGN",
+  "text3": "HIGH-QUALITY MATERIALS",
+  "btn": "CONTACT"
+  },
+  "works": {
+    "title1": "RESIDENTIAL PROJECTS",
+    "title2": "COMMERCIAL PROJECTS",
+    "title3": "OFFICES"
+  },
+  "part": {
+    "title1": "BRANDS WE WORK WITH:",
+    "title2": "ADVANTAGES",
+    "stitle1": "FREE MEASUREMENT VISIT",
+    "stitle2": "FIXED DEADLINES AND COST",
+    "stitle3": "STAGED PAYMENT BY CONTRACT WITH GUARANTEE",
+    "text1": "AFTER SIGNING THE CONTRACT",
+    "text2": "WE PREPARE AN ESTIMATE AND DO NOT INCREASE IT UNTIL THE WORK IS COMPLETED",
+    "text3": "CASH AND NON-CASH PAYMENT"
+  },
+  "about": {
+    "title": "REPAIR COST",
+    "title1": "CALCULATED INDIVIDUALLY",
+    "text1": "Design creation",
+    "text2": "3D visualization",
+    "text3": "Project documentation (estimate, electric and plumbing schemes, arrangement of furniture, appliances, and decor elements)",
+    "text4": "Project author's supervision",
+    "text5": "Selection, purchase, delivery, and lifting of construction and repair materials",
+    "text6": "Major renovation (plastering, wall putty, installation of electric and plumbing points, wallpapering, wall painting, floor leveling, laying laminate and tiles, installing baseboards, windowsills, drywall constructions, installing and connecting lighting fixtures, sockets, and switches, installing and connecting plumbing)",
+    "text7": "Selection, ordering, and arrangement of furniture",
+    "text9": "Selection, ordering, and installation of household appliances (standard set)",
+    "text10": "Selection and installation of lighting elements, chandeliers, wall lamps, etc. (** standard set)",
+    "text11": "Selection of plumbing and accessories",
+    "text12": "Interior/exterior decoration (home staging)",
+    "text13": "General cleaning after renovation",
+    "text14": "Construction waste removal",
+    "text15": "Warranty for completed works: 1 year*",
+    "title2": "WHAT IS THE RENOVATION SEQUENCE AND DURATION?",
+    "title3": "HOW WILL YOUR RENOVATION BE DONE?",
+    "stext1": "Duration:",
+    "stext2": "1-4 WEEKS",
+
+    "stitle1": "ROUGH WORKS",
+    "text1,1": "Design project creation",
+    "text1,2": "Estimate approval",
+    "text1,3": "Wall dismantling and construction",
+    "text1,4": "Plumbing and electrical installation",
+    "text1,5": "Engineering works",
+
+    "stitle2": "PRE-FINISH WORKS",
+    "text2,1": "Final ceiling finishing",
+    "text2,2": "Final wall finishing",
+    "text2,3": "Wall dismantling and construction",
+    "text2,4": "Engineering works",
+    "text2,5": "Wall plastering",
+    "text2,6": "Plumbing and electrical installation",
+    "text2,7": "Floor screeding",
+
+    "stitle3": "FINISHING WORKS",
+    "text3,1": "Ceiling paneling",
+    "text3,2": "Tiling works",
+    "text3,3": "Wall putty",
+    "text3,4": "Ceiling putty",
+    "text3,5": "Sanding of walls and ceilings",
+    "text3,6": "Priming of walls and ceilings",
+
+    "stitle4": "FINAL WORKS",
+    "text4,1": "Ceiling and wall painting",
+    "text4,2": "Wallpapering",
+    "text4,3": "Floor and skirting installation",
+    "text4,4": "Socket and switch installation",
+    "text4,5": "Furniture and chandelier installation",
+    "text4,6": "Plumbing installation"
+  },
+  "contact": {
+    "title1": "We will call you back and",
+    "title2": "answer all your questions",
+    "num": "Phone number",
+    "imya": "Your name",
+    "title3": "In a hurry? Call:",
+    "btn1": "Sending...",
+    "btn2": "Send",
+    "pl": "For example: John Smith"
+  },
+  "footer": {
+    "description": "Comprehensive services in the field of residential and non-residential real estate, including repair services.",
+    "socials": "WE ARE ON SOCIAL MEDIA:",
+    "contact_title": "CONTACT PHONE NUMBER:",
+    "phone_number": "+998 90 097 50 00",
+    "address": "MUSTAQILLIK AVENUE 59",
+    "mede":"Made on",
+    "tilde":"Tilda"
+  }
+
+}
