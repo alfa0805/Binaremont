@@ -2,10 +2,10 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { IoCaretForwardOutline } from "react-icons/io5";
 
-import about1 from "../assets/rectangle_89.jpg";
-import about2 from "../assets/rectangle_43.png";
-import about3 from "../assets/rectangle_44.jpg";
-import about4 from "../assets/rectangle_45.jpg";
+import about1 from "../assets/Rectangle_89.jpg";
+import about2 from "../assets/Rectangle_43.png";
+import about3 from "../assets/Rectangle_44.jpg";
+import about4 from "../assets/Rectangle_45.jpg";
 import vector from "../assets/Vector1.png";
 import soat from "../assets/Group_68.png"
  
