@@ -12,7 +12,7 @@ function Works() {
     <div className="pt-20 pb-10">
       <div id="works" className="container grid grid-cols-3 max-[850px]:grid-cols-2 max-[600px]:grid-cols-1 gap-10">
         <div className=" relative group">
-          <NavLink>
+          <NavLink to="/project">
             <div className="w-full h-[500px] overflow-hidden rounded-xl">
               <img
                 src={Works_bg1}
@@ -27,14 +27,14 @@ function Works() {
               </h2>
             </div>
 
-            <h2 className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]">
+            <h2 data-aos="fade-up" className=" text-center pt-5 text-3xl font-bold hover:text-[#17a79d]">
               {t("works.title1")}
             </h2>
           </NavLink>
         </div>
 
         <div className=" relative group">
-          <NavLink>
+          <NavLink to="/project">
             <div className="w-full h-[500px] overflow-hidden rounded-xl">
               <img
                 src={Works_bg2}
@@ -49,14 +49,14 @@ function Works() {
               </h2>
             </div>
 
-            <h2 className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]">
+            <h2 data-aos="fade-up" className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]">
               {t("works.title2")}
             </h2>
           </NavLink>
         </div>
 
         <div className=" relative group">
-          <NavLink>
+          <NavLink to="/project">
             <div className="w-full h-[500px] overflow-hidden rounded-xl">
               <img
                 src={Works_bg3}
@@ -71,7 +71,7 @@ function Works() {
               </h2>
             </div>
 
-            <h2 className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]">
+            <h2 data-aos="fade-up" className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]">
               {t("works.title3")}
             </h2>
           </NavLink>

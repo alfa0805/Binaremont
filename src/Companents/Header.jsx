@@ -3,6 +3,7 @@ import Logo from "../assets/Logo.png";
 import { useTranslation } from "react-i18next";
 import Navigation from "../Pages/Navigation";
 import { AiOutlineCloseCircle, AiOutlineMenu } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -16,13 +17,13 @@ function Header() {
 
   return (
     <header className="bg-[#1C6364] w-full transition-all duration-300 fixed z-[1000] shadow-md shadow-[#1dcfc6]">
-      <div className="container max-w-[1240px] h-[90px] flex items-center justify-between px-4 mx-auto">
+      <div className="container max-w-[1240px] h-[70px] flex items-center justify-between px-4 mx-auto">
         {/* Logo */}
-        <a href="#">
+        <NavLink to="/">
           <div className="w-[180px]">
             <img src={Logo} alt="Logo" />
           </div>
-        </a>
+        </NavLink>
 
         {/* Menu — only visible on large screens */}
         <div className="hidden min-[1100px]:flex items-center gap-3">

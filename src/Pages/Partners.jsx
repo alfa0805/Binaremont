@@ -22,7 +22,7 @@ function Partners() {
     <div id="partners" className="bg-gray-100 pb-10">
       <div className="w-full h-full py-10 bg-[#1C6364]">
         <div className="container">
-          <h1 className="text-4xl max-[700px]:text-3xl  text-gray-100 font-bold">
+          <h1 data-aos="fade-up" className="text-4xl max-[700px]:text-3xl  text-gray-100 font-bold">
             {t("part.title2")}
           </h1>
         </div>
@@ -30,7 +30,7 @@ function Partners() {
 
       <div className="container">
         <div className=" flex flex-wrap items-start justify-center gap-5 py-10">
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part1}
               alt=""
@@ -38,7 +38,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part2}
               alt=""
@@ -46,7 +46,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part3}
               alt=""
@@ -54,7 +54,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part4}
               alt=""
@@ -62,7 +62,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part5}
               alt=""
@@ -70,7 +70,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part6}
               alt=""
@@ -78,7 +78,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part7}
               alt=""
@@ -86,7 +86,7 @@ function Partners() {
             />
           </div>
 
-          <div className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
+          <div data-aos="fade-up" className="w-[290px] h-[130px] p-5 bg-white rounded-md shadow-md transition-transform duration-300 hover:scale-[1.03]">
             <img
               src={Part8}
               alt=""
@@ -105,24 +105,24 @@ function Partners() {
       >
         <div className="w-full h-full bg-[#0a4e4fd5] py-20">
           <div  className="container">
-            <h1 className="text-6xl max-[770px]:text-5xl max-[570px]:text-4xl max-[770px]:text-center text-white pb-10">{t("part.title2")}</h1>
+            <h1 data-aos="fade-up" className="text-6xl max-[770px]:text-5xl max-[570px]:text-4xl max-[770px]:text-center text-white pb-10">{t("part.title2")}</h1>
             <div className="flex flex-wrap items-center max-[770px]:justify-center gap-7">
               <div className="w-[350px] h-[340px] relative">
                   <img src={group1} alt="" className="w-full h-full"/>
-                  <h2 className="w-[80%] text-[30px] leading-[35px] text-gray-100 absolute top-36 left-5">{t("part.stitle1")}</h2>
-                  <p className=" w-[80%] absolute top-[240px] left-5 text-gray-100 text-xl">{t("part.text1")}</p>
+                  <h2 data-aos="fade-up" className="w-[80%] text-[30px] leading-[35px] text-gray-100 absolute top-36 left-5">{t("part.stitle1")}</h2>
+                  <p data-aos="fade-up" className=" w-[80%] absolute top-[240px] left-5 text-gray-100 text-xl">{t("part.text1")}</p>
               </div>
 
               <div className="w-[350px] h-[340px] relative">
                   <img src={group2} alt="" className="w-full h-full"/>
-                  <h2 className="w-[80%] text-[30px] leading-[35px] text-gray-100 absolute top-36 left-5">{t("part.stitle1")}</h2>
-                  <p className=" w-[80%] absolute top-[240px] left-5 text-gray-100 text-xl">{t("part.text1")}</p>
+                  <h2 data-aos="fade-up" className="w-[80%] text-[30px] leading-[35px] text-gray-100 absolute top-36 left-5">{t("part.stitle1")}</h2>
+                  <p data-aos="fade-up" className=" w-[80%] absolute top-[240px] left-5 text-gray-100 text-xl">{t("part.text1")}</p>
               </div>
 
               <div className="w-[350px] h-[340px] relative">
                   <img src={group3} alt="" className="w-full h-full"/>
-                  <h2 className="w-[80%] text-[30px] leading-[35px] text-gray-100 absolute top-36 left-5">{t("part.stitle1")}</h2>
-                  <p className=" w-[80%] absolute top-[240px] left-5 text-gray-100 text-xl">{t("part.text1")}</p>
+                  <h2 data-aos="fade-up" className="w-[80%] text-[30px] leading-[35px] text-gray-100 absolute top-36 left-5">{t("part.stitle1")}</h2>
+                  <p data-aos="fade-up" className=" w-[80%] absolute top-[240px] left-5 text-gray-100 text-xl">{t("part.text1")}</p>
               </div>
             </div>
           </div>

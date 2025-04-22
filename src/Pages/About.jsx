@@ -84,16 +84,16 @@ function About() {
   return (
     <div className="py-10 shadow-md shadow-[#19a69f]">
       <div id="proces" className="container">
-        <h1 className="text-[#1C6364] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
+        <h1 data-aos="fade-up" className="text-[#1C6364] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
           {t("about.title")}
         </h1>
-        <h1 className="text-[#282525] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
+        <h1 data-aos="fade-up" className="text-[#282525] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
           {t("about.title1")}
         </h1>
 
         <div className="space-y-4">
           {texts.map((item, index) => (
-            <div key={index} className="flex items-start gap-2">
+            <div data-aos="fade-up" key={index} className="flex items-start gap-2">
               <div className="w-[25px] h-[25px] mt-1 ">
                 <IoCaretForwardOutline className="text-[#1C6364] text-2xl" />
               </div>
@@ -106,10 +106,10 @@ function About() {
       </div>
 
       <div className="container">
-        <h1 className="text-[#1C6364] pt-20 font-medium text-4xl max-[770px]:text-3xl max-[570px]:text-2xl text-center pb-5">
+        <h1 data-aos="fade-up" className="text-[#1C6364] pt-20 font-medium text-4xl max-[770px]:text-3xl max-[570px]:text-2xl text-center pb-5">
           {t("about.title2")}
         </h1>
-        <h1 className="text-[#282525] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
+        <h1 data-aos="fade-up" className="text-[#282525] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
           {t("about.title3")}
         </h1>
         <div className="grid grid-cols-2 max-[670px]:grid-cols-1 gap-10">
@@ -118,7 +118,7 @@ function About() {
               key={index}
               className="w-full h-full flex items-start justify-between gap-4 max-[1000px]:flex-col"
             >
-              <div className="w-[245px] max-[1000px]:w-full h-[390px] rounded-md">
+              <div data-aos="fade-up" className="w-[245px] max-[1000px]:w-full h-[390px] rounded-md">
                 <img
                   src={item.img}
                   alt={item.title}
@@ -130,12 +130,12 @@ function About() {
                   <p className="text-4xl font-bold text-[#2186888b]">
                     {item.id}
                   </p>
-                  <h1 className="text-3xl font-bold text-[#293c3f]">
+                  <h1 data-aos="fade-up" className="text-3xl font-bold text-[#293c3f]">
                     {item.title}
                   </h1>
                   <ul className="flex flex-col gap-1 pt-3">
                     {item.texts.map((text, idx) => (
-                      <li key={idx} className="flex items-start justify-start gap-2">
+                      <li data-aos="fade-up" key={idx} className="flex items-start justify-start gap-2">
                         <div className="max-w-[30px] max-h-[19px] mt-1">
                           <img
                             src={vector}
@@ -151,7 +151,7 @@ function About() {
                   </ul>
                 </div>
 
-                <div className="w-full flex items-center gap-3 border-t-2 border-[#877c7c5a] pt-4">
+                <div data-aos="fade-up" className="w-full flex items-center gap-3 border-t-2 border-[#877c7c5a] pt-4">
                   <div className="w-[45px] h-[45px] rounded-[50%] bg-gray-200">
                     <img src={soat} alt="" className="" />
                   </div>

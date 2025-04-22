@@ -56,10 +56,10 @@ function Contact() {
     <div className="py-10 border-t-2 border-[#2b9295]">
       <div id="contact" className="container flex flex-col items-center justify-center px-4 py-10">
         <ToastContainer />
-        <h1 className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#313435] font-bold mb-4 text-center">
+        <h1 data-aos="fade-up" className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#313435] font-bold mb-4 text-center">
           {t("contact.title1")}
         </h1>
-        <h1 className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#1f6668] font-bold mb-8 text-center">
+        <h1 data-aos="fade-up" className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#1f6668] font-bold mb-8 text-center">
           {t("contact.title2")}
         </h1>
 
@@ -67,7 +67,7 @@ function Contact() {
           onSubmit={handleSubmit}
           className="w-full max-w-md bg-white flex flex-col gap-6"
         >
-          <div className="flex flex-col">
+          <div data-aos="fade-up" className="flex flex-col">
             <label className="mb-2 text-lg font-medium text-[#1f6668]">
               {t("contact.num")}
             </label>
@@ -82,7 +82,7 @@ function Contact() {
             />
           </div>
 
-          <div className="flex flex-col">
+          <div data-aos="fade-up" className="flex flex-col">
             <label className="mb-2 text-sm font-medium text-[#1f6668]">
               {t("contact.imya")}
             </label>
@@ -98,6 +98,7 @@ function Contact() {
           </div>
 
           <button
+            data-aos="fade-up"
             type="submit"
             disabled={loading}
             className="bg-[#1f6668] text-white py-3 font-semibold rounded-md"
@@ -107,10 +108,10 @@ function Contact() {
         </form>
 
         <div className="mt-10 text-center">
-          <p className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl font-semibold">
+          <p data-aos="fade-up" className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl font-semibold">
             {t("contact.title3")}
           </p>
-          <p className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl text-[#1f6668] font-bold mt-2">
+          <p data-aos="fade-up" className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl text-[#1f6668] font-bold mt-2">
             +99890 097 50 00
           </p>
         </div>

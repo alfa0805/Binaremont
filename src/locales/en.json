@@ -104,6 +104,25 @@
     "address": "MUSTAQILLIK AVENUE 59",
     "mede":"Made on",
     "tilde":"Tilda"
+  },
+  "project": {
+    "title": "RESIDENTIAL PROJECTS",
+    "type": "TYPE OF RENOVATION",
+    "style": "STYLE",
+    "address": "ADDRESS",
+    "area": "AREA",
+    "duration": "DURATION",
+    "duration1": "DAYS",
+
+    "title1": "TWO-ROOM APARTMENT",
+    "type1": "DESIGNER",
+    "style1": "HI-TECH",
+    "address1": "MIRZO-ULUGBEK DISTRICT 123",
+
+    "title2": "TWO-ROOM APARTMENT",
+    "type2": "CAPITAL, MID-BUDGET",
+    "style2": "NEOCLASSICAL",
+    "address2": "UZBEKFILM"
   }
 
 }

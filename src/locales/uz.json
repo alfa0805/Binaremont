@@ -106,6 +106,25 @@
     "address": "MUSTAQILLIK PROSPEKTI 59",
     "mede": "Yasalgani:",
     "tilde": "Tilda"
+  },
+  "project": {
+    "title": "YASHASH UYLARI LOYIHALARI",
+    "type": "TA'MIR TURI",
+    "style": "USLUB",
+    "address": "MANZIL",
+    "area": "MAYDON",
+    "duration": "MUDDAT",
+    "duration1": "KUN",
+
+    "title1": "IKKI XONALI UY",
+    "type1": "MUALLIFLIK",
+    "style1": "HI-TECH",
+    "address1": "MIRZO-ULUG'BEK TUMANI 123",
+
+    "title2": "IKKI XONALI UY",
+    "type2": "KAPITAL, O'RTACHA BYUDJET",
+    "style2": "NEOKLASSIKA",
+    "address2": "O'ZBEKFILM"
   }
 
 }

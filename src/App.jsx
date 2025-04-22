@@ -12,10 +12,12 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      offset: 0,
+      duration: 500,
+      offset:0,
       once: false,
-      mirror: true,
+      easing: 'ease-in-out',
+      delay: 100,
+      mirror: true 
     });
 
     // Loading ni 2 sekundda yo‘q qilish

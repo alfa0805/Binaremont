@@ -36,8 +36,6 @@ function Home() {
               <div className="w-full pt-10 gap-10 flex flex-wrap items-start">
                 <div className="w-[150px] flex items-start gap-3">
                   <div
-                    //   data-aos="fade-right"
-                    //   data-aos-anchor-placement="center-bottom"
                     className="w-[45px] h-[20px]"
                   >
                     <img
@@ -52,8 +50,7 @@ function Home() {
                 </div>
                 <div className="w-[150px] flex items-start gap-3">
                   <div
-                    //   data-aos="fade-right"
-                    //   data-aos-anchor-placement="center-bottom"
+
                     className="w-[45px] h-[20px]"
                   >
                     <img
@@ -68,8 +65,6 @@ function Home() {
                 </div>
                 <div className="w-[200px] flex items-start gap-3">
                   <div
-                    //   data-aos="fade-right"
-                    //   data-aos-anchor-placement="center-bottom"
                     className="w-[45px] h-[20px]"
                   >
                     <img
@@ -85,13 +80,14 @@ function Home() {
               </div>
               <div className="flex items-center justify-around gap-5 pt-10 flex-wrap">
                 <a href="#contact">
-                  <div className="bg-[#50e5e8] w-[200px] rounded-md min-[1100px]:flex hover:bg-[#1C6364] transition duration-300 border border-[#50e5e8]">
+                  <div data-aos="fade-up" className="bg-[#50e5e8] w-[200px] rounded-md min-[1100px]:flex hover:bg-[#1C6364] transition duration-300 border border-[#50e5e8]">
                     <button className="w-full text-lg px-5 py-1 text-gray-700 text-center hover:text-white font-medium">
                       {t("header.btn")}
                     </button>
                   </div>
                 </a>
                 <a
+                  data-aos="fade-up"
                   href="tel:+998900975000"
                   className="bg-[#50e5e8] w-[200px] rounded-md min-[1100px]:flex hover:bg-[#1C6364] transition duration-300 border border-[#50e5e8]"
                 >
@@ -101,7 +97,6 @@ function Home() {
                 </a>
               </div>
             </div>
-            {/* <div className=" absolute top-0 left-0 w-[100%] max-[950px]:w-[70%] max-[700px]:w-[100%] h-full bg-[#0a4e4fd5] z-10"></div> */}
           </div>
 
           <div
