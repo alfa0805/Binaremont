@@ -9,9 +9,7 @@ import Part5 from "../assets/intel_tex.png";
 import Part6 from "../assets/Layer.png";
 import Part7 from "../assets/globex.png";
 import Part8 from "../assets/yakkasaroy.png";
-
 import partbg from "../assets/Part-bottom-bg.jpg";
-
 import group1 from "../assets/Group_65.png";
 import group2 from "../assets/Group_66.png";
 import group3 from "../assets/Group_67.png";
@@ -22,7 +20,7 @@ function Partners() {
     <div id="partners" className="bg-gray-100 pb-10">
       <div className="w-full h-full py-10 bg-[#1C6364]">
         <div className="container">
-          <h1 data-aos="fade-up" className="text-4xl max-[700px]:text-3xl  text-gray-100 font-bold">
+          <h1 data-aos="fade-up" className="text-4xl max-[700px]:text-3xl max-[770px]:text-center text-gray-100 font-bold">
             {t("part.title2")}
           </h1>
         </div>
