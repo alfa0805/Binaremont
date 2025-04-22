@@ -15,7 +15,7 @@ function Home() {
     <>
       <div
         id="home"
-        className="pt-[90px] w-full h-full relative bg-[#1C6364] shadow-md shadow-[#1C6364]"
+        className="pt-[70px] w-full h-full relative bg-[#1C6364] shadow-md shadow-[#1C6364]"
       >
         <div className="container flex">
           <div
