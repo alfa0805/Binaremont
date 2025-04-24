@@ -80,7 +80,7 @@ function Navigation({ openMenu, setOpenMenu }) {
             : ""
         }`}
       >
-        <a href="#calculator"><button onClick={()=>setOpenMenu(false)}>{menuItems[2]}</button></a>
+        <a href="#project"><button onClick={()=>setOpenMenu(false)}>{menuItems[2]}</button></a>
       </li>
 
       <li

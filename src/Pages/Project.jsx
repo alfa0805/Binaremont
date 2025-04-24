@@ -5,18 +5,13 @@ import pr2 from "../assets/pr2.png";
 import pr3 from "../assets/pr3.png";
 import pr4 from "../assets/pr4.png";
 import pr5 from "../assets/pr5.png";
-import { FaArrowLeft } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
 
 function Projects() {
   const { t } = useTranslation();
 
   return (
-    <div className="pt-[110px]">
+    <div id="project" className="pt-8">
       <div className="container">
-        <NavLink to="/">
-            <FaArrowLeft className="text-2xl text-black"/>
-        </NavLink>
         <h1
           data-aos="fade-up"
           className=" text-[#2c2929] font-semibold text-6xl max-[770px]:text-5xl max-[570px]:text-4xl py-10"

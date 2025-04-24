@@ -2,7 +2,7 @@
   "header": {
     "href1": "BOSH SAHIFA",
     "href2": "ISHLARIMIZ",
-    "href3": "KALKULYATOR",
+    "href3": "LOYIHALAR",
     "href4": "HAMKORLAR",
     "href5": "ISH JARAYONI",
     "href6": "TA'MIRLASH QANCHA TURADI?",
@@ -98,7 +98,7 @@
     "btn2": "Yuborish",
     "pl": "Masalan: John Smith"
   },
-  "footer": {
+  "footers": {
     "description": "Turar va noturar joy mulklari sohasida kompleks xizmatlar, jumladan ta'mirlash xizmatlari.",
     "socials": "BIZ IJTIMOIY TARMOQLARDA:",
     "contact_title": "ALOQA TELEFON RAQAMI:",
@@ -125,6 +125,20 @@
     "type2": "KAPITAL, O'RTACHA BYUDJET",
     "style2": "NEOKLASSIKA",
     "address2": "O'ZBEKFILM"
+  },
+  "footer": {
+    "description": "IT TIME ACADEMY - Ўзбекистондаги энг йирик ва ишончли дастурлаш мактабларидан бири. 2017 йилдан буён минглаб ёшларга замонавий IT касбларида сифатли таълим бериб келмоқда.",
+    "quick_links": "Тез ҳаволалар",
+    "contact_us": "Биз билан боғланинг",
+    "links": {
+      "home": "Асосий",
+      "courses": "Курслар",
+      "mentors": "Менторлар",
+      "about": "Биз ҳақимизда",
+      "contact": "Алоқа"
+    },
+    "address": "Тошкент ш., Амир Темур шоҳ кўчаси, 100А",
+    "hours": "Душанба - Шанба: 09:00 - 18:00"
   }
 
 }

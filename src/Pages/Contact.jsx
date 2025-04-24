@@ -53,8 +53,8 @@ function Contact() {
   };
 
   return (
-    <div className="py-10 border-t-2 border-[#2b9295]">
-      <div id="contact" className="container flex flex-col items-center justify-center px-4 py-10">
+    <div id="contact" className="py-10 border-t-2 border-[#2b9295]">
+      <div className="container flex flex-col items-center justify-center px-4 py-10">
         <ToastContainer />
         <h1 data-aos="fade-up" className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#313435] font-bold mb-4 text-center">
           {t("contact.title1")}

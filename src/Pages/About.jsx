@@ -82,8 +82,8 @@ function About() {
   ];
 
   return (
-    <div className="py-10 shadow-md shadow-[#19a69f]">
-      <div id="proces" className="container">
+    <div id="proces" className="py-10 shadow-md shadow-[#19a69f]">
+      <div className="container">
         <h1 data-aos="fade-up" className="text-[#1C6364] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
           {t("about.title")}
         </h1>

@@ -7,6 +7,8 @@ import Works from "./Works";
 import Partners from "./Partners";
 import About from "./About";
 import Contact from "./Contact";
+import Footers from "./Footers";
+import Projects from "./Project";
 
 function Home() {
   const { t, i18n } = useTranslation();
@@ -110,6 +112,7 @@ function Home() {
       </div>
       <Works />
       <Partners />
+      <Projects/>
       <About />
       <Contact />
     </>

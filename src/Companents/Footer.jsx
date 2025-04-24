@@ -26,10 +26,19 @@ function Footer() {
               {t("footer.socials")}
             </h3>
             <div className="flex gap-4 text-4xl">
-              <a href="#">
+              <a
+                href="https://www.instagram.com/alfa__0805"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram />
               </a>
-              <a href="#">
+
+              <a
+                href="https://t.me/Asadbek_0805"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTelegramPlane />
               </a>
             </div>
@@ -48,7 +57,7 @@ function Footer() {
           <div className="py-5">
             <div className="w-[200px] mx-auto flex items-center gap-3">
               <p className="text-white text-lg">{t("footer.mede")}</p>
-              <img src={T} alt="Tilda" className="w-[40px]"/>
+              <img src={T} alt="Tilda" className="w-[40px]" />
               <p className="text-white text-lg">{t("footer.tilde")}</p>
             </div>
             <div className="w-full h-full absolute top-0 left-0 bg-[#1f1c1c68] hover:bg-[#ff000000]"></div>
