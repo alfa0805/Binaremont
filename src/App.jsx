@@ -27,12 +27,12 @@ function App() {
 
   if (loading) {
     return (
-      <div className="w-full h-screen flex justify-center items-center text-center">
+      <div className="w-full h-screen bg-[#d57e1a] flex justify-center items-center text-center">
         <Mosaic
-          color="#098e8c"
+          color="#84530b"
           size="large"
-          text="Bina Remont"
-          textColor="#14917c"
+          text="House Hub"
+          textColor="#84530b"
         />
       </div>
     );

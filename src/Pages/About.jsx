@@ -82,9 +82,9 @@ function About() {
   ];
 
   return (
-    <div id="proces" className="py-10 shadow-md shadow-[#19a69f]">
+    <div id="proces" className="py-10 shadow-md shadow-[#d57e1a]">
       <div className="container">
-        <h1 data-aos="fade-up" className="text-[#1C6364] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
+        <h1 data-aos="fade-up" className="text-[#d57e1a] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
           {t("about.title")}
         </h1>
         <h1 data-aos="fade-up" className="text-[#282525] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
@@ -95,9 +95,9 @@ function About() {
           {texts.map((item, index) => (
             <div data-aos="fade-up" key={index} className="flex items-start gap-2">
               <div className="w-[25px] h-[25px] mt-1 ">
-                <IoCaretForwardOutline className="text-[#1C6364] text-2xl" />
+                <IoCaretForwardOutline className="text-[#d57e1a] text-2xl" />
               </div>
-              <p className="text-3xl max-[770px]:text-xl max-[570px]:text-lg text-[#1C6364]">
+              <p className="text-3xl max-[770px]:text-xl max-[570px]:text-lg text-[#d57e1a]">
                 {item.text}
               </p>
             </div>
@@ -106,7 +106,7 @@ function About() {
       </div>
 
       <div className="container">
-        <h1 data-aos="fade-up" className="text-[#1C6364] pt-20 font-medium text-4xl max-[770px]:text-3xl max-[570px]:text-2xl text-center pb-5">
+        <h1 data-aos="fade-up" className="text-[#d57e1a] pt-20 font-medium text-4xl max-[770px]:text-3xl max-[570px]:text-2xl text-center pb-5">
           {t("about.title2")}
         </h1>
         <h1 data-aos="fade-up" className="text-[#282525] font-medium text-5xl max-[770px]:text-4xl max-[570px]:text-3xl text-center pb-10">
@@ -127,10 +127,10 @@ function About() {
               </div>
               <div className="w-[55%] max-[1000px]:w-full h-[100%] flex flex-col items-start justify-between">
                 <div className="item">
-                  <p className="text-4xl font-bold text-[#2186888b]">
+                  <p className="text-4xl font-bold text-[#d57e1a9d]">
                     {item.id}
                   </p>
-                  <h1 data-aos="fade-up" className="text-3xl font-bold text-[#293c3f]">
+                  <h1 data-aos="fade-up" className="text-3xl font-bold text-[#ca7719]">
                     {item.title}
                   </h1>
                   <ul className="flex flex-col gap-1 pt-3">

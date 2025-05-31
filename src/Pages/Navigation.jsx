@@ -20,7 +20,7 @@ function Navigation({ openMenu, setOpenMenu }) {
   return (
     <ul
       className={`flex items-center gap-3 ${
-        openMenu ? "flex-col bg-[#1C6364]" : ""
+        openMenu ? "flex-col bg-[#d57e1a]" : ""
       } transition-all duration-300`}
     >
       <li
@@ -28,7 +28,7 @@ function Navigation({ openMenu, setOpenMenu }) {
         style={
           activeIndex === 0
             ? {
-                boxShadow: "inset 0px 0px 4px 1px #50e5e8",
+                boxShadow: "inset 0px 0px 4px 1px #d0cac2",
                 transform: "translateY(-10px)",
                 color: "#fff",
               }
@@ -48,7 +48,7 @@ function Navigation({ openMenu, setOpenMenu }) {
         style={
           activeIndex === 1
             ? {
-                boxShadow: "inset 0px 0px 4px 1px #50e5e8",
+                boxShadow: "inset 0px 0px 4px 1px #d0cac2",
                 transform: "translateY(-10px)",
                 color: "#fff",
               }
@@ -68,7 +68,7 @@ function Navigation({ openMenu, setOpenMenu }) {
         style={
           activeIndex === 2
             ? {
-                boxShadow: "inset 0px 0px 4px 1px #50e5e8",
+                boxShadow: "inset 0px 0px 4px 1px #d0cac2",
                 transform: "translateY(-10px)",
                 color: "#fff",
               }
@@ -88,7 +88,7 @@ function Navigation({ openMenu, setOpenMenu }) {
         style={
           activeIndex === 3
             ? {
-                boxShadow: "inset 0px 0px 4px 1px #50e5e8",
+                boxShadow: "inset 0px 0px 4px 1px #d0cac2",
                 transform: "translateY(-10px)",
                 color: "#fff",
               }
@@ -108,7 +108,7 @@ function Navigation({ openMenu, setOpenMenu }) {
         style={
           activeIndex === 4
             ? {
-                boxShadow: "inset 0px 0px 4px 1px #50e5e8",
+                boxShadow: "inset 0px 0px 4px 1px #d0cac2",
                 transform: "translateY(-10px)",
                 color: "#fff",
               }

@@ -2,7 +2,7 @@ import React from "react";
 import { FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import i18n from "../i18n";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logoo.png";
 import T from "../assets/tildacopy.png";
 
 function Footer() {
@@ -10,13 +10,21 @@ function Footer() {
 
   return (
     <footer>
-      <div className="bg-[#1f6668] text-white py-10">
+      <div className="bg-[#d57e1a] text-white py-10">
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Chap blok: Logo va matn */}
           <div className="flex flex-col gap-4">
-            <a href="#">
-              <img src={Logo} alt="BINA Logo" className="w-[230px]" />
-            </a>
+            <div className="flex items-center gap-1">
+              <img src={Logo} alt="Logo" className="w-[100px]" />
+              <div className="">
+                <h1 className="text-4xl leading-7 font-bold text-[#84530b]">
+                  ouse
+                </h1>
+                <h1 className="text-4xl leading-8 font-bold text-[#84530b]">
+                  up
+                </h1>
+              </div>
+            </div>
             <p className="text-xl leading-6">{t("footer.description")}</p>
           </div>
 

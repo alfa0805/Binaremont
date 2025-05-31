@@ -53,13 +53,13 @@ function Contact() {
   };
 
   return (
-    <div id="contact" className="py-10 border-t-2 border-[#2b9295]">
+    <div id="contact" className="py-10 border-t-2 border-[#d57e1a]">
       <div className="container flex flex-col items-center justify-center px-4 py-10">
         <ToastContainer />
         <h1 data-aos="fade-up" className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#313435] font-bold mb-4 text-center">
           {t("contact.title1")}
         </h1>
-        <h1 data-aos="fade-up" className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#1f6668] font-bold mb-8 text-center">
+        <h1 data-aos="fade-up" className="text-6xl max-[700px]:text-4xl max-[460px]:text-3xl text-[#d57e1a] font-bold mb-8 text-center">
           {t("contact.title2")}
         </h1>
 
@@ -68,7 +68,7 @@ function Contact() {
           className="w-full max-w-md bg-white flex flex-col gap-6"
         >
           <div data-aos="fade-up" className="flex flex-col">
-            <label className="mb-2 text-lg font-medium text-[#1f6668]">
+            <label className="mb-2 text-lg font-medium text-[#d57e1a]">
               {t("contact.num")}
             </label>
             <input
@@ -78,12 +78,12 @@ function Contact() {
               placeholder="+998 99-999-9999"
               value={formData.phone}
               onChange={handleChange}
-              className="border border-[#1f6668] rounded-md py-3 px-4 outline-none"
+              className="border border-[#d57e1a] rounded-md py-3 px-4 outline-none"
             />
           </div>
 
           <div data-aos="fade-up" className="flex flex-col">
-            <label className="mb-2 text-sm font-medium text-[#1f6668]">
+            <label className="mb-2 text-sm font-medium text-[#d57e1a]">
               {t("contact.imya")}
             </label>
             <input
@@ -93,7 +93,7 @@ function Contact() {
               placeholder={t("contact.pl")}
               value={formData.name}
               onChange={handleChange}
-              className="border border-[#1f6668] rounded-md py-3 px-4 outline-none"
+              className="border border-[#d57e1a] rounded-md py-3 px-4 outline-none"
             />
           </div>
 
@@ -101,7 +101,7 @@ function Contact() {
             data-aos="fade-up"
             type="submit"
             disabled={loading}
-            className="bg-[#1f6668] text-white py-3 font-semibold rounded-md"
+            className="bg-[#d57e1a] text-white py-3 font-semibold rounded-md"
           >
             {loading ? `${t("contact.btn1")}` : `${t("contact.btn2")}`}
           </button>
@@ -111,7 +111,7 @@ function Contact() {
           <p data-aos="fade-up" className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl font-semibold">
             {t("contact.title3")}
           </p>
-          <p data-aos="fade-up" className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl text-[#1f6668] font-bold mt-2">
+          <p data-aos="fade-up" className="text-3xl max-[700px]:text-2xl max-[460px]:text-xl text-[#d57e1a] font-bold mt-2">
             +99890 097 50 00
           </p>
         </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logoo.png";
 import { useTranslation } from "react-i18next";
 import Navigation from "../Pages/Navigation";
 import { AiOutlineCloseCircle, AiOutlineMenu } from "react-icons/ai";
@@ -16,14 +16,18 @@ function Header() {
   };
 
   return (
-    <header className="bg-[#1C6364] w-full transition-all duration-300 fixed z-[1000] shadow-md shadow-[#1dcfc6]">
+    <header className="bg-[#d57e1a] w-full transition-all duration-300 fixed z-[1000] shadow-md shadow-[#d57e1a]">
       <div className="container max-w-[1240px] h-[70px] flex items-center justify-between px-4 mx-auto">
         {/* Logo */}
-        <NavLink to="/">
-          <div className="w-[180px]">
-            <img src={Logo} alt="Logo" />
+        <a href="#">
+          <div className="flex items-center gap-1">
+            <img src={Logo} alt="Logo" className="w-[50px]"/>
+            <div className="">
+              <h1 className="text-2xl leading-4 font-bold text-[#84530b]">ouse</h1>
+              <h1 className="text-2xl leading-5 font-bold text-[#84530b]">up</h1>
+            </div>
           </div>
-        </NavLink>
+        </a>
 
         {/* Menu — only visible on large screens */}
         <div className="hidden min-[1100px]:flex items-center gap-3">
@@ -35,15 +39,15 @@ function Header() {
           {/* Language Button */}
           <button
             onClick={() => setOpenLang(true)}
-            className="px-3 py-1 rounded-md border text-gray-700 bg-[#50e5e8] border-[#50e5e8] hover:text-gray-200 hover:bg-[#1C6364] transition duration-300"
+            className="px-3 py-1 rounded-md cursor-pointer border-2 text-gray-100 bg-[#84530b] border-[#84530b] hover:text-gray-100 hover:bg-[#84540ba9] transition duration-300"
           >
             {i18n.language ? i18n.language.toUpperCase() : "UZ"}
           </button>
 
           {/* Contact Button */}
           <a href="#contact">
-            <div className="bg-[#50e5e8] rounded-md hidden min-[1100px]:flex hover:bg-[#1C6364] transition duration-300 border border-[#50e5e8]">
-              <button className="text-md px-5 py-1 text-gray-700 hover:text-white font-medium">
+            <div className="bg-[#84530b] cursor-pointer rounded-md hidden min-[1100px]:flex hover:bg-[#84540b99] transition duration-300 border-2 border-[#84530b]">
+              <button className="text-md px-5 py-1 text-gray-100 font-medium">
                 {t("header.btn")}
               </button>
             </div>
@@ -53,7 +57,7 @@ function Header() {
               onClick={() => setOpenMenu(true)}
               className=""
             >
-              <AiOutlineMenu className="text-2xl text-[#50e5e8]"/>
+              <AiOutlineMenu className="text-2xl text-[#84530b]"/>
             </button>
           </div>
         </div>
@@ -98,11 +102,11 @@ function Header() {
 
       {/* Menu Modal for mobile */}
       {openMenu && (
-        <div className="fixed inset-0 backdrop-blur-xs  bg-opacity-60 flex items-center justify-center z-50">
-          <div className="bg-[#1C6364] rounded-lg shadow-xl p-6 w-[90%] max-w-[400px] relative">
+        <div onClick={() => setOpenMenu(false)} className="fixed inset-0 backdrop-blur-xs  bg-opacity-60 flex items-center justify-center z-50">
+          <div className="bg-[#d57e1a] rounded-lg shadow-xl p-6 w-[90%] max-w-[400px] relative">
             <Navigation openMenu={openMenu} setOpenMenu={setOpenMenu} />
             <a href="#contact">
-              <button onClick={() => setOpenMenu(false)} className="w-full mt-4 bg-[#35cdd0] text-white py-2 rounded-md">
+              <button onClick={() => setOpenMenu(false)} className="w-full mt-4 bg-[#84530b] text-white py-2 rounded-md">
                 {t("header.btn")}
               </button>
             </a>

@@ -18,7 +18,7 @@ function Partners() {
   const { t, i18n } = useTranslation();
   return (
     <div id="partners" className="bg-gray-100 pb-10">
-      <div className="w-full h-full py-10 bg-[#1C6364]">
+      <div className="w-full h-full py-10 bg-[#d57e1a]">
         <div className="container">
           <h1 data-aos="fade-up" className="text-4xl max-[700px]:text-3xl max-[770px]:text-center text-gray-100 font-bold">
             {t("part.title2")}
@@ -101,7 +101,7 @@ function Partners() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="w-full h-full bg-[#0a4e4fd5] py-20">
+        <div className="w-full h-full bg-[#2e1a03a2] py-20">
           <div  className="container">
             <h1 data-aos="fade-up" className="text-6xl max-[770px]:text-5xl max-[570px]:text-4xl max-[770px]:text-center text-white pb-10">{t("part.title2")}</h1>
             <div className="flex flex-wrap items-center max-[770px]:justify-center gap-7">

@@ -23,7 +23,7 @@ function Works() {
               />
             </div>
 
-            <div className=" absolute top-0 left-0 bg-[#0c4844c5] rounded-xl w-full h-[500px] hidden group-hover:flex items-center justify-center text-gray-100 ">
+            <div className=" absolute top-0 left-0 bg-[#3d27098f] rounded-xl w-full h-[500px] hidden group-hover:flex items-center justify-center text-gray-100 ">
               <h2 className="text-center pt-5 text-3xl font-bold">
                 {t("works.title1")}
               </h2>
@@ -31,7 +31,7 @@ function Works() {
 
             <h2
               data-aos="fade-up"
-              className=" text-center pt-5 text-3xl font-bold hover:text-[#17a79d]"
+              className=" text-center pt-5 text-3xl font-bold hover:text-[#d57e1a]"
             >
               {t("works.title1")}
             </h2>
@@ -48,7 +48,7 @@ function Works() {
               />
             </div>
 
-            <div className=" absolute top-0 left-0 bg-[#0c4844c5] rounded-xl w-full h-[500px] hidden group-hover:flex items-center justify-center text-gray-100 ">
+            <div className=" absolute top-0 left-0 bg-[#3d27098f] rounded-xl w-full h-[500px] hidden group-hover:flex items-center justify-center text-gray-100 ">
               <h2 className="text-center pt-5 text-3xl font-bold">
                 {t("works.title2")}
               </h2>
@@ -56,7 +56,7 @@ function Works() {
 
             <h2
               data-aos="fade-up"
-              className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]"
+              className="text-center pt-5 text-3xl font-bold hover:text-[#d57e1a]"
             >
               {t("works.title2")}
             </h2>
@@ -73,7 +73,7 @@ function Works() {
               />
             </div>
 
-            <div className=" absolute top-0 left-0 bg-[#0c4844c5] rounded-xl w-full h-[500px] hidden group-hover:flex items-center justify-center text-gray-100 ">
+            <div className=" absolute top-0 left-0 bg-[#3d27098f] rounded-xl w-full h-[500px] hidden group-hover:flex items-center justify-center text-gray-100 ">
               <h2 className="text-center pt-5 text-3xl font-bold ">
                 {t("works.title3")}
               </h2>
@@ -81,7 +81,7 @@ function Works() {
 
             <h2
               data-aos="fade-up"
-              className="text-center pt-5 text-3xl font-bold hover:text-[#17a79d]"
+              className="text-center pt-5 text-3xl font-bold hover:text-[#d57e1a]"
             >
               {t("works.title3")}
             </h2>

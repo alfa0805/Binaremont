@@ -41,7 +41,7 @@ function Projects() {
                     <img src={pr1} alt="uy" className="w-full h-full" />
                   </div>
                   <div className="">
-                    <p className="text-sm text-[#1C6364] font-medium">
+                    <p className="text-sm text-[#593602] font-medium">
                       {t("project.type")}
                     </p>
                     <p className="text-[12px] text-[#2d2a2a] font-semibold">
@@ -55,7 +55,7 @@ function Projects() {
                     <img src={pr2} alt="uy" className="w-full h-full" />
                   </div>
                   <div className="">
-                    <p className="text-sm text-[#1C6364] font-medium">
+                    <p className="text-sm text-[#593602] font-medium">
                       {t("project.style")}
                     </p>
                     <p className="text-[12px] text-[#2d2a2a] font-semibold">
@@ -69,7 +69,7 @@ function Projects() {
                     <img src={pr3} alt="uy" className="w-full h-full" />
                   </div>
                   <div className="">
-                    <p className="text-sm text-[#1C6364] font-medium">
+                    <p className="text-sm text-[#593602] font-medium">
                       {t("project.address")}
                     </p>
                     <p className="text-[12px] text-[#2d2a2a] font-semibold">
@@ -83,7 +83,7 @@ function Projects() {
                     <img src={pr4} alt="uy" className="w-full h-full" />
                   </div>
                   <div className="">
-                    <p className="text-sm text-[#1C6364] font-medium">
+                    <p className="text-sm text-[#593602] font-medium">
                       {t("project.area")}
                     </p>
                     <p className="text-[12px] text-[#2d2a2a] font-semibold">
@@ -97,7 +97,7 @@ function Projects() {
                     <img src={pr5} alt="uy" className="w-full h-full" />
                   </div>
                   <div className="">
-                    <p className="text-sm text-[#1C6364] font-medium">
+                    <p className="text-sm text-[#593602] font-medium">
                       {t("project.duration")}
                     </p>
                     <p className="text-[12px] text-[#2d2a2a] font-semibold">
